@@ -1,0 +1,27 @@
+{
+  "name": "block-tunnel-client",
+  "version": "0.0.5",
+  "description": "Tunnel Client",
+  "main": "index.js",
+  "scripts": {
+    "start": "./bin/client -v"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "httppp": "~0.2.1",
+    "debug": "~0.7.2",
+    "reconnect": "~1.2.1",
+    "commander": "~1.1.1",
+    "mdm-tunnel": "0.0.5"
+  },
+  "bin": {
+    "block-tunnel-client": "./bin/client"
+  },
+  "devDependencies": {
+    "ecstatic": "~0.4.2",
+    "shoe": "0.0.10",
+    "awsbox": "~0.4.4"
+  }
+}
