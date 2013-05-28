@@ -14,7 +14,8 @@
     "debug": "~0.7.2",
     "reconnect": "~1.2.1",
     "commander": "~1.1.1",
-    "mdm-tunnel": "0.0.5"
+    "mdm-tunnel": "~0.0.7",
+    "ninja-client": "git+ssh://git@github.com:ninjablocks/client.git#develop"
   },
   "bin": {
     "block-tunnel-client": "./bin/client"
