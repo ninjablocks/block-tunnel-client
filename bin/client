@@ -12,7 +12,7 @@ program
 .option('--insecure', 'Do not reject unuthorised server certificates. For debugging.')
 .parse(process.argv)
 
-process.title='tunnel-client'
+process.title='block-tunnel-client'
 if (program.verbose) process.env.DEBUG = '*'
 var log = require('debug')('client')
 
